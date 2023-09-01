@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: bisque;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+.slider {
+    border: 1px solid black;
+    width: 256px;
+    height: 256px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-inner {
+    width: 1024px;
+    height: 256px;
+    display: flex;
+    background: orange;
+    position: relative;
+    transition: all ease 1s;
+}
